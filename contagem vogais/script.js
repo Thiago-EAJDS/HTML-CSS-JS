@@ -7,8 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const contarO = document.getElementById("contarO");
     const contarU = document.getElementById("contarU");
 
-    // duvido que esteja vendo os codigos tudo, isso aq é máfia
-
     inputText.addEventListener("input", function () {
         const text = inputText.value.toLowerCase();
         const vogais = { 'a': 0, 'e': 0, 'i': 0, 'o': 0, 'u': 0 };
